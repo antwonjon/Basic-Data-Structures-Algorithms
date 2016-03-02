@@ -1,0 +1,59 @@
+<head>
+<link rel="stylesheet" href="style.css" type="text/css" />
+<title>
+CSCI 132, Inlab 3
+</title>
+</head>
+
+<body>
+
+<h1>Inlab 3: LinkedList</h1>
+
+Due: Tuesday 03 February at 11:59 pm
+
+<h2>Purpose</h2>
+<ul>
+  <li>Work on LinkedLists.</li>
+</ul>
+
+<h2>Partners</h2>
+<p>
+This is an individual assignment, though collaboration (not solution sharing) is allowed.
+</p>
+
+<h2>Problem Statement</h2>
+<p>
+You will add two new methods to an integer Linked List application.  Those methods are addInOrder(int value) and removeAtIndex(int index).
+</p>
+
+<h2>Assignment</h2>
+<ol>
+  <li>Download <a href="Inlab3.zip">this</a> code and review it.  This code will be your starting point.</li>
+  <li>Complete the addInOrder(int value) method so that it adds the value into the list at the first point that the subsequent value is either null, or less than or equal to the value.
+      Pretty much, if the list is in order (biggest to smallest), then adding a new value via addInOrder(value) will add the value and keep the list in order.</li>
+  <li>Complete the removeAtIndex(int index) method so that the value at the index-th spot in the list is removed from the list.  You can assume that the first item in the list has index 1 (not 0 like arrays).</li>
+  <li>Test your code by running the Driver.  No exceptions should be thrown and your output should look like <a href="output.txt">this</a>.</li>
+</ol>
+
+<h2>Submission</h2>
+<p>
+  Zip your entire assignment by selecting File -> Export Project -> To ZIP, and then selecting a location and name (e.g. fileName.zip).  
+  Submit this .zip file to the appropriate D2L dropbox folder by Tuesday night at 11:59 pm.
+</p>
+
+<h2>Grading - 10 points</h2>
+<ul>
+<li>2 points - The program runs with no exceptions being thrown.</li>
+<li>4 points - The addInOrder method works.</li>
+<li>4 points - The removeAtIndex method works.</li>
+</ul>
+
+<h2>Hints</h2>
+<p>
+These methods will take ~12 lines of code each.  They are not horrifically difficult, but require you to firmly understand what you are try to do.  
+Don't start coding until you have a plan of attack.  Pull out a piece of paper, draw a linked list, and walk through how you will solve the problem.
+If you ask for help, the TA may ask you what your plan is, so have one (no matter how flawed it may be).
+</p>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+</head>
+<body>
+<h1>OutLab 5: Tree Sort</h1>
+<p>Due: Wednesday 24 June at 5:00 pm</p>
+<h2>Purpose</h2>
+<ul>
+<li>Gain experience with a new sort method.</li>
+</ul>
+<h2>Partners</h2>
+<p>This is an individual assignment, though collaboration (not solution sharing) is allowed.</p>
+<h2>Problem Statement</h2>
+<p>You are going to build a new sorting method. We have already seen mergeSort() and quickSort() in class. The method you will build for this lab is called treeSort(). We have already seen that things can be inserted into a binary search tree and retrieved in sorted order. You are going to leverage this fact to build a sorting method based on BSTs.</p>
+<p>The basic idea is this: Given an array of generic (Comparable) elements, put those elements into a BST. Then, traverse the tree in an appropriate fashion, putting the elements back into the array. When this is completed, the array should be in sorted order.</p>
+<p>Here are the specifications for your solution. The method treeSort() must be a static method in the Sort class (just like we did for mergeSort() during class). It will take an array of some generic Comparable data type (just like mergeSort()). It will not return anything, instead the array that is passed will be modified so that it is now in sorted order (just like mergeSort()). Since you are using a BST to accomplish this, you will likely want another couple classes to represent that BST.</p>
+<h2>Assignment</h2>
+<ol>
+<li>Make a Sort class like we developed for mergeSort() in which to put your treeSort() method.</li>
+<li>Add any other BST classes you need to support your solution.</li>
+<li>Make the treeSort() method so that it successfully acts as detailed above.</li>
+<li>Test your solution to confirm that it is sorting.</li>
+<li>Answer the following questions in a text file. Note, you are being graded on your thought process. Don't stress if you are just making an educated guess.</li>
+<ol>
+<li>Given an array of size n, what do you think the worst case running time of treeSort() is? How did you get this answer? What input could yield this running time?</li>
+<li>Given an array of size n, what do you think the best case running time of treeSort() is? How did you get this answer? What input would be needed to yield this running time?</li>
+<li>Can you think of any circumstances where treeSort() may make more sense than mergeSort() or quickSort()?</li>
+</ol></ol>
+<h2>Submission</h2>
+<p>Zip your entire assignment by selecting File -&gt; Export Project -&gt; To ZIP, and then selecting a location and name (e.g. fileName.zip). Submit this .zip file and your answers to the questions to the appropriate D2L dropbox folder by the deadline.&nbsp;</p>
+<h2>Grading - 10 points</h2>
+<ul>
+<li>14 points - treeSort() works, has the specifications detailed, and is not overly complex.</li>
+<li>6 points - The questions are reasonably answered with rationale given for the answers.</li>
+</ul>
+<h2>Hints</h2>
+<ul>
+<li>You can't do complete this assignment if you do not understand what the goal is, and how the directed solution works. If you don't understand either of these, ask.</li>
+<li>Most of the BST capability you need has already been developed in class or your labs. Don't reinvent the wheel.</li>
+</ul>
+</body>
+</html>
